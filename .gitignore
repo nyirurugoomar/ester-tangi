@@ -1,0 +1,13 @@
+.env
+.node_modules
+.dist
+.build
+.vite
+.eslint
+.prettier
+.stylelint
+.babel
+.rollup
+.webpack
+.parcel
+.vite
