@@ -1,3 +1,15 @@
+const WEDDING_EVENT_ISO = '2026-08-09T15:00:00+02:00'
+
+function formatEventDisplayDate(iso) {
+  return new Date(iso).toLocaleDateString('en-GB', {
+    weekday: 'long',
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+    timeZone: 'Africa/Kigali',
+  })
+}
+
 export const weddingData = {
   couple: {
     bride: 'Esther',
@@ -8,8 +20,8 @@ export const weddingData = {
     youtubeUrl: 'https://youtu.be/8BCHH7uOWcw',
   },
   portraits: {
-    groom: '/wedding/groom.png',
-    bride: '/wedding/bride.png',
+    groom: '/wedding/pic01.jpeg',
+    bride: '/wedding/pc02.jpeg',
     groomAlt: 'Tangi — the groom',
     brideAlt: 'Esther — the bride',
     image1: '/wedding/gallery-05.png',
@@ -29,8 +41,8 @@ export const weddingData = {
   events: [
     {
       title: 'Wedding day celebration',
-      date: '2026-08-09T15:00:00+02:00',
-      displayDate: 'Sunday, 9 August 2026',
+      date: WEDDING_EVENT_ISO,
+      displayDate: formatEventDisplayDate(WEDDING_EVENT_ISO),
       location: 'Details on your invitation to follow',
     },
   ],
@@ -96,14 +108,14 @@ export const weddingData = {
   ],
   contacts: {
     brideFamily: [
-      { name: 'Bride Family Contact 1', phone: '+250 788 000 001' },
-      { name: 'Bride Family Contact 2', phone: '+250 788 000 002' },
-      { name: 'Esther', phone: '+250 788 000 003' },
+      { name: 'Ester', phone: '+250 782 325 506' },
+      { name: 'Brother Mugisha', phone: '+1(207) 252 133 6' },
+      { name: 'Sister Muhoza', phone: '+250 786 140 042' },
     ],
     groomFamily: [
-      { name: 'Groom Family Contact 1', phone: '+250 788 000 004' },
-      { name: 'Groom Family Contact 2', phone: '+250 788 000 005' },
-      { name: 'Tangi', phone: '+250 788 000 006' },
+      { name: 'Tangi', phone: '+250 788 637 051' },
+      { name: 'Sister Sifa', phone: '+250 781 999 434' },
+      
     ],
   },
   gettingMarriedIntro:

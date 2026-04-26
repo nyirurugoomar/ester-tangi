@@ -314,6 +314,8 @@ h1.hero-heading {
   font-size: 0.72rem;
 }
 
+
+
 .section-kicker,
 .section-label,
 .scroll-hint,
@@ -386,12 +388,16 @@ h1.hero-heading {
   padding: 28px;
 }
 
-.event-card h2,
+.countdown-section P{
+  color: #fff;
+}
+.event-card,
 .countdown-section h2,
 .story-section h2,
 .gallery-section h2 {
   margin-bottom: 12px;
   text-wrap: balance;
+  color: #fff;
 }
 
 .event-card__date {
@@ -428,6 +434,7 @@ h1.hero-heading {
 
 .countdown-section {
   text-align: center;
+  background-color: #182C61;
 }
 
 .countdown-grid {
@@ -1183,6 +1190,13 @@ h1.hero-heading {
     text-align: start;
     padding-top: 64px;
     padding-bottom: 64px;
+  }
+
+
+  @media (max-width: 900px){
+    .getting-married-section{
+      margin-right: 40px;
+    }
   }
 
   section.content-section.countdown-section {
