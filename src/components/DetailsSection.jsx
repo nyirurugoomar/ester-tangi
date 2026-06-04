@@ -40,8 +40,11 @@ export function DetailsSection({ visitCount, contacts, venues }) {
           </ul>
         </article>
       </div>
-
+      <div>
+        <img src="/wedding/invitation pic.jpeg" alt="Venue" />
+      </div>
       <div className="venue-grid">
+        
         {venues.map((venue) => (
           <article className="panel venue-card" key={venue.label}>
             <p className="section-kicker">{venue.label}</p>
