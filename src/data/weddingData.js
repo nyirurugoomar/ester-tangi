@@ -123,11 +123,11 @@ export const weddingData = {
   venues: [
     {
       label: 'Guest will be hosted at',
-      location: 'Golden Garden(Remera)',
+      location: 'Golden Garden(Rebero)',
       mapUrl: 'https://www.google.com/maps/place/Golden+Garden+Rebero/@-1.9981323,30.0790456,17z/data=!3m1!4b1!4m6!3m5!1s0x19dca9ef90b6aee5:0x7f9bee3f6658856a!8m2!3d-1.9981323!4d30.0816205!16s%2Fg%2F11l8tlxqqp?entry=ttu&g_ep=EgoyMDI2MDYwMS4wIKXMDSoASAFQAw%3D%3D',
     },
     {
-      label: 'Kigali Bilingual Church (Remera)',
+      label: 'Kigali Bilingual Church',
       location: '',
       mapUrl: 'https://www.google.com/maps/place/Kigali+Bilingual+Seventh-day+Adventist+Church/@-1.9639807,30.1026366,17z/data=!4m16!1m9!3m8!1s0x19dca79e8e038591:0x3f9578d55becc68c!2sKigali+Bilingual+Seventh-day+Adventist+Church!8m2!3d-1.9639807!4d30.1052115!9m1!1b1!16s%2Fg%2F11rw67c36t!3m5!1s0x19dca79e8e038591:0x3f9578d55becc68c!8m2!3d-1.9639807!4d30.1052115!16s%2Fg%2F11rw67c36t?entry=ttu&g_ep=EgoyMDI2MDYwMS4wIKXMDSoASAFQAw%3D%3D',
     },
